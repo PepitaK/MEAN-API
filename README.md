@@ -1,8 +1,8 @@
 # MEAN-API
-
-Toiminnot: 
-/getall - Näytä kaikki tietokannan ponit 
-/get/:id - Näyttää ponin, jolla on tietty ID (1-5) 
-/post - Lisää uuden ponin
-/put/:id - Muokkaa ponia 
-/delete/:id - Poistaa lisätyn ponin
+<br>
+Toiminnot: <br>
+/getall - Näytä kaikki tietokannan ponit <br>
+/get/:id - Näyttää ponin, jolla on tietty ID (1-5) <br>
+/post - Lisää uuden ponin<br>
+/put/:id - Muokkaa ponia <br>
+/delete/:id - Poistaa lisätyn ponin<br>
