@@ -23,7 +23,8 @@ app.use(bodyParser.urlencoded({
 // use res.render to load up an ejs view file
 app.get("/", function(req, res) {
   var result = getAll(function(err, result) {
-    res.send("Toiminnot: <br>/getall - Näytä kaikki ponit <br> /get/:id - Näytä poni, jolla on tietty ID (1-5) <br>/post - Lisää  uusi poni<br>/put/:id - Muokkaa ponia <br> /delete/:id - Poista lisätty poni");
+  res.render("index.ejs");
+  //  res.send("Toiminnot: <br>/getall - Näytä kaikki ponit <br> /get/:id - Näytä poni, jolla on tietty ID (1-5) <br>/post - Lisää  uusi poni<br>/put/:id - Muokkaa ponia <br> /delete/:id - Poista lisätty poni");
 
     //handle err, then you can render your view
     //console.log(result);
