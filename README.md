@@ -6,3 +6,5 @@ Toiminnot: <br>
 /post - Lisää uuden ponin<br>
 /put/:id - Muokkaa ponia <br>
 /delete/:id - Poistaa lisätyn ponin<br>
+<br><br>
+Katso: http://pepitak.herokuapp.com
